@@ -5,7 +5,7 @@ pipeline {
         stage('Build Image'){
             steps{ 
                 script{
-                    dockerapp = docker.build("fabiobarbosaa/ci_cd:0.1.${env.BUILD_ID}-dev", '-f ./jenkins/Dockerfile ./jenkins')
+                    dockerapp = docker.build("fabiobarbosaa/de_academy:0.1.${env.BUILD_ID}-dev", '-f ./src/Dockerfile ./src')
                 }
             }
         /* }
