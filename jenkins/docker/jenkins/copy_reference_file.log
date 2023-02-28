@@ -109,3 +109,9 @@ SKIPPED plugins/docker-workflow.jpi : Installed version (563.vd5d2e5c4007f) has 
 --- Copying files at Tue Feb 28 16:33:43 UTC 2023
 SKIPPED plugins/blueocean.jpi : Installed version (1.27.2) has been manually upgraded from initial version (1.25.6)
 SKIPPED plugins/docker-workflow.jpi : Installed version (563.vd5d2e5c4007f) has been manually upgraded from initial version (1.29)
+--- Copying files at Tue Feb 28 19:27:52 UTC 2023
+UPGRADED plugins/cloudbees-folder.jpi : Image version (6.800.v71307ca_b_986b) is newer than installed version (6.758.vfd75d09eea_a_1)
+UPGRADED plugins/credentials.jpi : Image version (1214.v1de940103927) is newer than installed version (1189.vf61b_a_5e2f62e)
+SKIPPED plugins/blueocean.jpi : Installed version (1.27.2) has been manually upgraded from initial version (1.25.6)
+--- Copying files at Tue Feb 28 19:29:08 UTC 2023
+SKIPPED plugins/blueocean.jpi : Installed version (1.27.2) has been manually upgraded from initial version (1.25.6)
